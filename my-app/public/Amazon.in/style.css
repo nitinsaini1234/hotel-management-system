@@ -1,0 +1,18 @@
+
+*{
+    margin: 0%;
+    padding:0px;
+}.nevbar{
+    height:40px;
+    color: white;
+    margin: 0%;
+}
+#logo{
+    color:rgb(225, 159, 54);
+}
+a{
+    padding-right:35px;
+}
+.classn{
+    padding:6px ;
+}

@@ -1,0 +1,16 @@
+body{
+margin:0px;
+text-align: center;
+background-color: rgba(33, 221, 190, 0.432);
+}
+button,button{
+    color: blue
+}
+h1{
+    color: blue;
+}
+ button,input{
+    border-radius:10px;
+    box-shadow: 50px ,black;
+
+}

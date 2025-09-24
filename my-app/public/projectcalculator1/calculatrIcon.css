@@ -1,0 +1,45 @@
+#box1{
+    text-align: center;
+    border: 1px solid rgb(63, 56, 56);
+    border-radius: 10px;
+    width:240px;
+    margin:5px;
+    background-color: rgb(27, 21, 21);
+    color: rgb(46, 40, 40);
+   
+}
+#Display {
+    text-align: right;
+    width:85;
+    margin:10px;
+    padding:25px;
+    border-radius:5px;
+    color: rgb(241, 238, 238);
+    background-color: rgb(27, 21, 21);
+} 
+#button{
+    margin: 8px;
+    width:39px;
+    height:40px;
+    background-color: rgb(19, 17, 14); 
+    color: rgb(255, 255, 255);
+    border-radius:120px;
+    
+}
+#button2{
+    margin: 8px;
+    width:39px;
+    height:40px;
+    background-color: rgba(255, 189, 9, 0.808); 
+    color: rgb(228, 213, 213);
+    border-radius:120px;
+    font-style:calc(50, 25,30);
+}
+#button1{
+    margin: 8px;
+    width:39px;
+    height:40px;
+    background-color: rgb(92, 84, 73); 
+    color: rgb(241, 238, 238);
+    border-radius:120px;
+}

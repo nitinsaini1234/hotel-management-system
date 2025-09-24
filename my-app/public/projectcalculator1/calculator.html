@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculatrIcon.css">
+</head>
+<body>
+     <h1> IPhone calculator clone</h1>
+     <div id="box1">
+        <div id="cureentdisplay">
+            <input type="text" id="Display">
+        <div>
+            <button id="button1" onclick="cureentdisplay='';
+            document.querySelector('#Display').value = cureentdisplay;">AC</button>
+            <button id="button1" onclick="cureentdisplay=cureentdisplay +(-valuecureentdisplay);
+            document.querySelector('#Display').value = cureentdisplay;">+/-</button>
+            <button id="button1" onclick="cureentdisplay= cureentdisplay + '%';
+            document.querySelector('#Display').value = cureentdisplay;">%</button>
+            <button id="button2" onclick="cureentdisplay= cureentdisplay + '/';
+            document.querySelector('#Display').value = cureentdisplay;">/</button>
+            <button id="button" onclick="cureentdisplay= cureentdisplay +'7';
+            document.querySelector('#Display').value = cureentdisplay;">7</button>
+            <button id="button" onclick="cureentdisplay= cureentdisplay +'8';
+            document.querySelector('#Display').value = cureentdisplay;">8</button>
+            <button id="button" onclick="cureentdisplay= cureentdisplay +'9';
+            document.querySelector('#Display').value = cureentdisplay;">9</button>
+            <button id="button2" onclick="cureentdisplay= cureentdisplay + '*';
+                document.querySelector('#Display').value = cureentdisplay;">*</button>
+            <button id="button" onclick="cureentdisplay= cureentdisplay +'4';
+                document.querySelector('#Display').value = cureentdisplay;">4</button>
+            <button id="button"onclick="cureentdisplay= cureentdisplay +'5';
+            document.querySelector('#Display').value = cureentdisplay;">5</button>
+            <button id="button"onclick="cureentdisplay= cureentdisplay +'6';
+            document.querySelector('#Display').value = cureentdisplay;">6</button>
+            <button id="button2" onclick="cureentdisplay= cureentdisplay +'-';
+            document.querySelector('#Display').value = cureentdisplay;">-</button>
+            <button id="button" onclick="cureentdisplay= cureentdisplay +'1';
+            document.querySelector('#Display').value = cureentdisplay;">1</button>
+            <button id="button"onclick="cureentdisplay= cureentdisplay +'2';
+            document.querySelector('#Display').value = cureentdisplay;">2</button> 
+            <button id="button"onclick="cureentdisplay= cureentdisplay +'3';
+            document.querySelector('#Display').value = cureentdisplay;">3</button>
+            <button id="button2" onclick="cureentdisplay= cureentdisplay + '+';
+            document.querySelector('#Display').value = cureentdisplay;">+</button>
+            <button id="button" onclick="cureentdisplay= cureentdisplay +'^';
+            document.querySelector('#Display').value = cureentdisplay;">^</button>
+            <button id="button"onclick="cureentdisplay= cureentdisplay +'0';
+            document.querySelector('#Display').value = cureentdisplay;">0</button>
+            <button id="button" onclick="cureentdisplay= cureentdisplay +'.';
+            document.querySelector('#Display').value = cureentdisplay;">.</button>
+            <button id="button2" onclick="cureentdisplay = eval(cureentdisplay);
+            document.querySelector('#Display').value = cureentdisplay;">=</button>
+        </div>
+     </div>
+    </div>
+<script>
+let cureentdisplay=' ';
+document.querySelector('#Display').value = cureentdisplay;
+</script>
+</body>
+</html>
